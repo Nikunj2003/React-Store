@@ -1,0 +1,33 @@
+.Home {
+  align-self: flex-center;
+  padding-top: 110px;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-bottom: 110px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  font-size: 4.5rem;
+  border-radius: 5px;
+  margin-top: 140px;
+
+}
+
+.Home-text {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.Home-link {
+  width: fit-content;
+  margin-top: 50px;
+  text-decoration: underline;
+  transition: color 200ms;
+}
+
+.Home-link:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
